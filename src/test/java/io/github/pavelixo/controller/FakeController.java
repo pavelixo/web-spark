@@ -1,6 +1,7 @@
 package io.github.pavelixo.controller;
 
 import io.github.pavelixo.annotation.Controller;
+import io.github.pavelixo.core.Router;
 
 @Controller
 public class FakeController implements Router {

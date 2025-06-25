@@ -1,4 +1,4 @@
-package io.github.pavelixo.controller;
+package io.github.pavelixo.core;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.reflections.Reflections;
 import io.github.pavelixo.annotation.Controller;
 
 public class Controllers {
-    private static final String PACKAGE = getPackage();
+    private static final String PACKAGE = "io.github.pavelixo.controller";
     private static final Reflections reflections = getReflections();
     
     public static void init() throws Exception {
@@ -29,10 +29,6 @@ public class Controllers {
             );
         }
         return controllers;
-    }
-    
-    private static String getPackage() {
-        return Controllers.class.getPackage().getName();
     }
 
     private static Reflections getReflections() {

@@ -1,6 +1,6 @@
 package io.github.pavelixo;
 
-import io.github.pavelixo.controller.Controllers;
+import io.github.pavelixo.core.Controllers;
 import static spark.Spark.port;
 
 

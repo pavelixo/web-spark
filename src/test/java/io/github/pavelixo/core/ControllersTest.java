@@ -1,8 +1,10 @@
-package io.github.pavelixo.controller;
+package io.github.pavelixo.core;
 
 import org.junit.jupiter.api.AfterEach;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
+
+import io.github.pavelixo.controller.FakeController;
 
 public class ControllersTest {
 
