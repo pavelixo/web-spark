@@ -1,0 +1,51 @@
+# Maven build directory
+/target/
+
+# Log files
+*.log
+
+# IDE configuration files (do not commit)
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Eclipse IDE files
+/.classpath
+/.project
+/.settings/
+/.buildpath
+
+# NetBeans IDE files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Visual Studio Code settings and workspace files
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Compiled Java class files
+*.class
+
+# Java archive files
+*.jar
+*.war
+*.ear
+
+# Backup and swap files
+*~
+*.swp
+
